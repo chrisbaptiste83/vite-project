@@ -9,6 +9,25 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.5",
+    "tailwindcss": "^4.1.10",
     "vite": "^6.3.5"
-  }
+  },
+  "dependencies": {
+    "daisyui": "^5.0.43"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisbaptiste83/vite-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisbaptiste83/vite-project/issues"
+  },
+  "homepage": "https://github.com/chrisbaptiste83/vite-project#readme",
+  "description": ""
 }
