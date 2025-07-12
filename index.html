@@ -1,24 +1,102 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <script type="module" src="/src/main.js"></script>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Christopher Baptiste | Flame-Bearer Portfolio</title>
+  <link rel="stylesheet" href="/src/style.css" />  
   </head>
-  <body>
- <div class="hero bg-base-200 min-h-screen">
-  <div class="hero-content text-center">
-    <div class="max-w-md">
-      <h1 class="text-5xl font-bold">Hello there</h1>
-      <p class="py-6">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
-      </p>
-      <button class="btn btn-primary">Get Started</button>
-    </div>
-  </div>
+  <body class="min-h-screen bg-base-100 text-white">
+    <section class="hero min-h-screen bg-gradient-to-br from-black via-zinc-800 to-gray-900">
+      <div class="hero-content text-center">
+        <div class="max-w-xl">
+          <h1 class="text-5xl font-bold tracking-tight text-primary-content">
+           🔥 Christopher Baptiste
+          </h1>
+          <p class="py-6 text-lg text-zinc-300">
+            Magus of Code. Flame-Bearer. Software Alchemist.
+            <br />
+            Building spiritual tech, e-commerce sites, and portals for the Current.
+          </p>
+          <div class="flex jsutify-center gap-4">
+          </div>
+        </div>
+      </div>
+    </section>
+<section id="projects" class="py-20 bg-base-200 text-center">
+<div class="max-w-6xl mx-auto px-6">
+<h2 class="text-4xl font-bold mb-12 text-primary">Projects</h2>
+
+<div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+<!-- Project Card 1 -->
+<div class="card bg-base-100 shadow-xl border border-primary">
+<div class="card-body">
+<h3 class="card-title text-lg">🧵 Shopzilla</h3>
+<p>A digital embroidery file store built with Rails 8, Stripe Checkout, and Tailwind CSS. Thousands of categorized files delivered instantly.</p>
+<div class="card-actions justify-end">
+<a href="https://github.com/chrisbaptiste83/shopzilla" target="_blank" class="btn btn-sm btn-primary">View Code</a>
 </div>
+</div>
+</div>
+
+<!-- Project Card 2 -->
+<div class="card bg-base-100 shadow-xl border border-secondary">
+<div class="card-body">
+<h3 class="card-title text-lg">📱 Connected</h3>
+<p>A Facebook-style social media platform using Rails 8, Twilio SMS verification, Tailwind, Stimulus, and ActionText.</p>
+<div class="card-actions justify-end">
+<a href="https://github.com/chrisbaptiste83/social_media_app" target="_blank" class="btn btn-sm btn-secondary">View Code</a>
+</div>
+</div>
+</div>
+
+<!-- Project Card 3 -->
+<div class="card bg-base-100 shadow-xl border border-accent">
+<div class="card-body">
+<h3 class="card-title text-lg">🧟‍♂️ Zombie Packs</h3>
+<p>React + Rails game with a post-apocalyptic theme. Users create and share survival packs, with live comments and likes.</p>
+<div class="card-actions justify-end">
+<a href="https://github.com/chrisbaptiste83/zombie-packs-client" target="_blank" class="btn btn-sm btn-accent">View Code</a>
+</div>
+</div>
+</div>
+
+<!-- You can keep adding more cards... -->
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section id="contact" class="py-20 bg-base-100 flex center">
+<div class="max-w-4xl mx-auto px-6">
+<h2 class="text-4xl font-bold mb-10 text-center text-primary">Get in Touch</h2>
+
+<form class="card bg-base-200 shadow-xl p-8 space-y-6" action="mailto:chrisbaptiste667@gmail.com" method="POST" enctype="text/plain">
+<div class="form-control">
+<label class="label">
+<span class="label-text">Name</span>
+</label>
+<input type="text" name="name" placeholder="Your Name" class="input input-bordered" required />
+</div>
+
+<div class="form-control">
+<label class="label">
+<span class="label-text">Email</span>
+</label>
+<input type="email" name="email" placeholder="your@email.com" class="input input-bordered" required />
+</div>
+
+<div class="form-control">
+<label class="label">
+<span class="label-text">Message</span>
+</label>
+<textarea name="message" rows="5" placeholder="Say something..." class="textarea textarea-bordered" required></textarea>
+</div>
+
+<div class="form-control mt-6">
+<button type="submit" class="btn btn-primary w-full">Send Message</button>
+</div>
+</form>
+</div>
+</section>
   </body>
 </html>
-
